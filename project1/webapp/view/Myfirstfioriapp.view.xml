@@ -1,0 +1,23 @@
+<mvc:View controllerName="com.applexus.project1.controller.Myfirstfioriapp"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <VBox id="_IDGenVBox1">
+            <Input
+			id="input1"
+			placeholder="Enter product"
+            width = "10%">
+		</Input>
+        <Input
+			id="input2"
+			placeholder="Enter product"
+            width = "10%">
+		</Input>
+        <Button id="button1" text="Submit"
+						press="onPress">
+				</Button>
+                </VBox>
+        </content >
+    </Page>
+</mvc:View>

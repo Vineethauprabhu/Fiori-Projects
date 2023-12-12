@@ -1,0 +1,79 @@
+<mvc:View 
+    controllerName="com.applexus.table1.controller.Table1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:t="sap.ui.table"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:u="sap.ui.unified"
+	xmlns:c="sap.ui.core"
+	xmlns:m="sap.m"
+    height="100%">   
+    <m:Page id="page" title="{i18n>title}">
+        <m:content>
+			<t:Table id="_IDGenTable1" rows="{/Empdetails}" selectionMode="Single" rowSelectionChange="onSelect">
+                <t:columns>
+					<t:Column id="_IDGenColumn1" width="11rem" hAlign="Center">
+						<m:Label id="_IDGenLabel1" text="Employee Id" />
+						<t:template>
+							<m:Text id="t1" wrapping="false" text="{Empid}" />
+						</t:template>
+					</t:Column>
+                    <t:Column id="_IDGenColumn4" width="11rem" hAlign="Center">
+						<m:Label id="_IDGenLabel4" text="{i18n>Empname}"/>
+						<t:template>
+							<m:Input id="inp" value="{path:'Empname',formatter:'.formatter.myformatter'}"/>
+						</t:template>
+					</t:Column>
+					<t:Column id="_IDGenColumn2" width="11rem" hAlign="Center">
+						<m:Label id="_IDGenLabel2" text="Salary" />
+						<t:template>
+							<m:Text id="inp3" wrapping="false" text="{parts:[{path:'Salary'},{path:'Currencey'}],formatter:'.formatter.curr_formatter'}" />
+						</t:template>
+					</t:Column>
+                     <t:Column id="_IDGenColumn3" width="11rem" hAlign="Center">
+						<m:Label id="_IDGenLabel3" text="Currencey" />
+						<t:template>
+							<m:Input id="inp4" value="{Currencey}" />
+						</t:template>
+					</t:Column>
+                    <t:Column id="_IDGenColumn5" width="7rem" hAlign="Center">
+						<m:Label id="_IDGenLabel5" text="Smoker" />
+						<t:template>
+                        <c:Icon id="_IDGenText3" src="{= ${Smoker}==='Yes' ? 'sap-icon://accept' : 'sap-icon://decline'}"/>
+						</t:template>
+					</t:Column>
+                    <t:Column id="_IDGenColumn6" width="9rem" hAlign="Center">
+						<m:Label id="_IDGenLabel6" text="Gender" />
+						<t:template>
+							<m:Image id="_IDGenLink1" src="{Gender}" width="20%"/>
+						</t:template>
+					</t:Column>
+                    <t:Column id="_IDGenColumn7" width="12rem" hAlign="Center">
+						<m:Label id="_IDGenLabel7" text="Marital Status" />
+						<t:template>
+							<m:ComboBox id="_IDGenComboBox1" value="{Marital Status}" >
+							    <c:Item id="_IDGenItem1" text="Single"/>
+								<c:Item id="_IDGenItem2" text="Married"/>
+								<c:Item id="_IDGenItem3" text="Widower"/>
+							</m:ComboBox>
+						</t:template>
+					</t:Column>
+                    <t:Column id="_IDGenColumn8" width="12rem" hAlign="Center">
+						<m:Label id="_IDGenLabel8" text="Rating" />
+						<t:template>
+								<m:RatingIndicator id="RI_default" maxValue="5" class="sapUiSmallMarginBottom" value="3"  tooltip="Rating" />
+						</t:template>
+					</t:Column>
+                </t:columns>
+            </t:Table>
+			<f:SimpleForm id="SimpleForm">
+				<m:Label id="l1"  text="Employee Id" />
+                <m:Input id="in1" width = "40%" required="true" value="{Empid}"/>             
+                <m:Label id="l2"  text="Employee name" />
+                <m:Input id="in2" width = "40%" value="{Empname}" />
+                <m:Label id="l3"  text="Salary"  />
+                <m:Input id="in3"  width = "40%" value="{Salary}"/>	
+		</f:SimpleForm>
+        </m:content>
+    </m:Page>
+</mvc:View>
+

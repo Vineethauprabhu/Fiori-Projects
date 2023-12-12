@@ -1,0 +1,57 @@
+<c:FragmentDefinition id="_IDGenFragmentDefinition1"
+xmlns:t="sap.ui.table"
+xmlns:c="sap.ui.core"
+xmlns="sap.m">   
+<Table id="_IDGenTable111" items="{path : '/supplier'}" ariaLabelledBy="title">
+    <columns>
+        <Column id="_IDGenColumn1" width="5rem">
+            <Label id="_IDGenLabel11" text="Supplier Name" />
+        </Column>
+        <Column id="_IDGenColumn2" width="5rem">
+            <Label id="_IDGenLabel12" text="Since When" />
+        </Column>
+        <Column id="_IDGenColumn3" width="5rem">
+            <Label id="_IDGenLabel13" text="Contact No" />
+        </Column>
+        <Column id="_IDGenColumn5" width="5rem">
+            <Label id="_IDGenLabel15" text="No. of stores" />
+        </Column>
+        <Column id="_IDGenColumn6" width="5rem">
+            <Label id="_IDGenLabel16" text="Speciality" />
+        </Column>
+        <Column id="_IDGenColumn7" width="5rem">
+            <Label id="_IDGenLabel17" text="City" />
+        </Column>
+        </columns>
+        <items>
+            <ColumnListItem id="_IDGenColumnListItem1">
+                <cells>
+                    <Text id= "cell1" text="{name}"/>
+                </cells>
+                <cells>
+                    <Text id= "cell2" text="{sincewhen}"/>
+                </cells>
+                <cells>
+                    <Text id= "cell3" text="{contactno}"/>
+                </cells>
+                <cells>
+                    <Text id= "cell5" text="{nofstores}"/>
+                </cells>
+                <cells>
+                    <Text id= "cell6" text="{speciality}"/>
+                </cells><cells>
+                        <Input id="productInput" 
+                        type="Text" 
+                        value="Select City" 
+                        placeholder="Enter Product ..." 
+                        showValueHelp="true" 
+                        valueHelpOnly="true" 
+                        valueHelpRequest="handleValueHelp" 
+                        class="sapUiSmallMarginBottom" 
+                        width="10rem"/>
+                    </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+    
+</c:FragmentDefinition>

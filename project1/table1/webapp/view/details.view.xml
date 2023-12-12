@@ -1,0 +1,24 @@
+<mvc:View 
+controllerName="com.applexus.table1.controller.details"
+xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+xmlns:u="sap.ui.unified"
+xmlns:c="sap.ui.core"
+xmlns="sap.m">   
+<Page id="page123" title="{i18n>title}">
+   <IconTabBar id="_IDGenIconTabHeader1">
+	<items>
+	<IconTabFilter id="_IDGenIconTabFilter1" key="info" icon="sap-icon://hint" text="Moreinfo">
+    	<c:Fragment fragmentName="com.applexus.table1.fragment.moreinfo" type="XML"/>
+	</IconTabFilter>
+	<IconTabFilter id="_IDGenIconTabFilter2" key="info" icon="sap-icon://group" text="Supplier" iconColor="Negative">
+    	<c:Fragment fragmentName="com.applexus.table1.fragment.supplier" type="XML"/>
+	</IconTabFilter>
+	<IconTabFilter id="_IDGenIconTabFilter3" key="info" icon="sap-icon://addresses" text="Cities" iconColor="Positive">
+    	<c:Fragment fragmentName="com.applexus.table1.fragment.cities" type="XML"/>
+	</IconTabFilter>
+	</items>
+	</IconTabBar>
+    </Page>
+</mvc:View>
+
+ 	

@@ -1,0 +1,39 @@
+<mvc:View 
+    controllerName="com.applexus.simpleform.controller.simple_form"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+	xmlns:u="sap.ui.unified"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+    <Page id="page" title="{i18n>title}">
+    <f:SimpleForm id="SimpleFormChange354"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="Employee Details"
+			labelSpanXL="3"
+			labelSpanL="3"
+			labelSpanM="3"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="4"
+			emptySpanL="4"
+			emptySpanM="4"
+			emptySpanS="0"
+			columnsXL="1"
+			columnsL="1"
+			columnsM="1" >
+			<f:content>
+				<Label id="_IDGenLabel1"  text="Name" />
+                <Input id="in1" width = "40%" required="true" />             
+                <Label id="_IDGenLabel2"  text="Age" />
+                <Input id="in2" width = "40%" />
+                <Label id="_IDGenLabel3"  text="Salary"  />
+                <Input id="in3"  width = "40%"/>                                
+                <Label id="_IDGenLabel4"  text="Department" required="true"/>
+                <Input id="in4" width = "40%" enabled="{=${path:'/Empdetails/salary'}>'24000'?false:true}"/>
+				<Label id="q"/>
+				<ToggleButton id="Button1" text="Change" press="onPress" width = "40%" />
+			</f:content>
+		</f:SimpleForm>
+    </Page>
+</mvc:View>

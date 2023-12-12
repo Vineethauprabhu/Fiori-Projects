@@ -1,0 +1,21 @@
+.calculator-background {
+    background-color: blue;
+}
+.container {
+    padding-left: 0px; /* Adjust the value as needed */
+    border: 1px solid #000; /* Border style, adjust color and size as needed */
+    text-align: center;
+    margin: 50px auto; /* Center align the container horizontally */
+    background-color: rgb(0, 0, 0);
+  }
+  /* #App {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+  ._IDGenVBox1{
+    color: aqua;
+    background-color: aqua;
+
+  }

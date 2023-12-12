@@ -1,0 +1,28 @@
+<c:FragmentDefinition id="_IDGenFragmentDefinition1"
+	xmlns:u="sap.ui.unified"
+	xmlns:c="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns:f="sap.ui.layout.form"
+	xmlns="sap.m"
+    height="100%">   
+    
+			<f:SimpleForm id="SimpleForm">
+				<Label id="l1"  text="Name" />
+                <Input id="in1" width = "40%" required="true" value="{name}"/>             
+                <Label id="l2"  text="Colour" />
+                <Input id="in2" width = "40%" value="{color}" />
+                <Label id="l3"  text="Taste"  />
+                <Input id="in5"  width = "40%" value="{taste}"/>
+                <Label id="l5"  text="Taste"  />
+                <Input id="in3"  width = "40%" value="{taste}"/>	
+                <Label id="l6"  text="Status"  />
+                <Input id="in6"  width = "40%" value="{status}"/>	
+                <Label id="ln7"  text="Health benefits"  />
+                <Input id="in7"  width = "40%" value="{healthbenefits}"/>
+                <Label id="ln8"  text="Price"  />
+                <Input id="in8"  width = "40%" value="{price}"/>
+                <Label id="l4"  text="Image"  />
+                <Image id="_IDGenLink1" src="{image}" width="10%"/>
+		</f:SimpleForm>
+</c:FragmentDefinition>
+

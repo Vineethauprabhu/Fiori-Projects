@@ -1,0 +1,45 @@
+<mvc:View controllerName="com.applexus.calculator.controller.Calulator"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    >
+    <Page id="page" title="{i18n>title}">  
+    <content >
+    <VBox id="_IDGenVBox2" height="110px"></VBox>
+    	<l:HorizontalLayout id="container" >
+      <HBox id="_IDGenHBox5" width="475px" ></HBox>
+    <VBox id="_IDGenVBox1" backgroundDesign="Solid" class="container">
+    	<Label id="_IDGenLabel1"
+			text="CASIO"
+			labelFor="Input"
+			design="Bold" />
+    <Input id="Input" width="125px" value=""/>
+    <HBox id="_IDGenHBox1" >
+      <Button type="Emphasized" id="Button1"  text="1" press="onButtonClick" />
+      <Button type="Emphasized" id="Button2"  text="2" press="onButtonClick"/>
+      <Button type="Emphasized" id="Button3"  text="3" press="onButtonClick"/>
+      <Button type="Accept" id="add"      text="+" press="onButtonClick"/>
+    </HBox>
+    <HBox id="_IDGenHBox2">
+      <Button type="Emphasized" id="Button4" text="4" press="onButtonClick"/>
+      <Button type="Emphasized" id="Button5" text="5" press="onButtonClick"/>
+      <Button type="Emphasized" id="Button6" text="6" press="onButtonClick"/>
+      <Button type="Accept" id="sub"     text="-" press="onButtonClick"/>
+    </HBox>
+    <HBox id="_IDGenHBox3">
+      <Button type="Emphasized" id="Button7" text="7" press="onButtonClick"/>
+      <Button type="Emphasized" id="Button8" text="8" press="onButtonClick"/>
+      <Button type="Emphasized" id="Button9" text="9" press="onButtonClick"/>
+      <Button type="Accept" id="mul"     text="*" press="onButtonClick"/>
+    </HBox>
+    <HBox id="_IDGenHBox4">
+      <Button type="Reject"  id="cancel"  text="C" press="onButtonClick"/>
+      <Button type="Emphasized" id="Button0" text="0" press="onButtonClick"/>
+      <Button id="equal"   text="=" press="onButtonClick"/>
+      <Button type="Accept" id="divide"  text="/" press="onButtonClick"/>
+    </HBox>
+  </VBox> 
+  	</l:HorizontalLayout>
+  </content >      
+    </Page>
+</mvc:View>

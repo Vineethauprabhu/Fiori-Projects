@@ -1,0 +1,17 @@
+<mvc:View controllerName="com.applexus.foodorderingapptest1.controller.Homepage"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        	<HeaderContainer id="headerContainer" scrollStep="200" showDividers="false">
+		<NumericContent id="_IDGenNumericContent1" scale="M" value="1.75" valueColor="Good" indicator="Up" press="press" />
+		<NumericContent id="_IDGenNumericContent2" scale="M" value="0.57" valueColor="Error" indicator="Down" press="press" />
+		<NumericContent id="_IDGenNumericContent3" scale="M" value="1.04" valueColor="Neutral" indicator="Up" press="press" />
+		<NumericContent id="_IDGenNumericContent4" scale="M" value="3.65" valueColor="Good" indicator="Up" press="press" />
+		<NumericContent id="_IDGenNumericContent5" scale="M" value="0.73" valueColor="Error" indicator="Down" press="press" />
+		<NumericContent id="_IDGenNumericContent6" scale="M" value="1.01" valueColor="Critical" indicator="Down" press="press" />
+		<NumericContent id="_IDGenNumericContent7" scale="M" value="1.42" valueColor="Good" indicator="Up" press="press" />
+		<NumericContent id="_IDGenNumericContent8" scale="M" value="0.21" valueColor="Error" indicator="Down" press="press" />
+	</HeaderContainer>
+        <content />
+    </Page>
+</mvc:View>

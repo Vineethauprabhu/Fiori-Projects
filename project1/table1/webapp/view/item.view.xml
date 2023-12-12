@@ -1,0 +1,31 @@
+<mvc:View 
+  controllerName="com.applexus.table1.controller.item"
+  xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns:u="sap.ui.unified"
+	xmlns:c="sap.ui.core"
+	xmlns:m="sap.m"
+    height="100%">   
+    <m:Page id="page" title="{i18n>title}">
+    <m:Toolbar id="_IDGenToolbar2">
+		  <m:ToolbarSpacer id="_IDGenToolbarSpacer2"/>
+		      <m:Button id="_IDGenButton1" text="Delete" press="onDelete" icon ="sap-icon://delete"/>
+    </m:Toolbar>
+    <m:List id="fruitslist"  mode="SingleSelect"  selectionChange="onSelectionChange" headerText="Fruit store" items="{path:'/fruit',sorter:{path:'name'}}">	
+    <m:headerToolbar>
+    <m:Toolbar id="_IDGenToolbar1"><m:Title id="_IDGenTitle1" text="{i18n>Fruits Store}"/>
+        <m:ToolbarSpacer id="_IDGenToolbarSpacer1"/>
+        <m:SearchField  id="_IDGenSearchField1" width="50%" liveChange=".onFilter" />
+    </m:Toolbar>
+    </m:headerToolbar>	
+    <m:ObjectListItem id="_IDGenObjectAttribute1"  title="{name}" number="{price}" numberUnit="{curr}" 
+                       icon="{image}" intro="{taste}"  type="Navigation" press="onNavPress">
+        <m:firstStatus> 
+        <m:ObjectStatus id="_IDGenObjectStatus1" text="{status}" />
+        </m:firstStatus>
+      <m:ObjectAttribute id="_IDGenObjectAttribute2" text="{color}" />
+      <m:ObjectAttribute id="Attribute3" text="{healthbenefits}" />        
+		  </m:ObjectListItem>
+		  </m:List >        
+    </m:Page>
+</mvc:View>
+

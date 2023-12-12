@@ -1,0 +1,16 @@
+{
+    "Employees":[
+    {
+    "name":"Yedu Krishnan",
+    "age" :"23",
+    "salary":"25,000",
+    "department":"Technical Associate"
+    },
+    {
+    "name":"Ansu",
+    "age" :"23",
+    "salary":"25",
+    "department":"ABAP"
+    }
+   ]
+}

@@ -1,0 +1,316 @@
+{
+    "Empdetails":[
+    {
+    "Empid" :"09",
+    "Empname":"Vineetha",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * * *"
+    },
+    {
+    "Empid" :"01",
+    "Empname":"Alisha",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+  {
+    "Empid" :"02",
+    "Empname":"Ansu",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+   {
+    "Empid" :"03",
+    "Empname":"Anu",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"04",
+    "Empname":"Aparna",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"05",
+    "Empname":"Asad",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"06",
+    "Empname":"Soumya",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"07",
+    "Empname":"Noel",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"08",
+    "Empname":"Vaishnav",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * * *"
+    },
+    {
+    "Empid" :"10",
+    "Empname":"Sanal",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"11",
+    "Empname":"Sara",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"12",
+    "Empname":"Arya",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"4"
+    },
+    {
+    "Empid" :"13",
+    "Empname":"Jayasree",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Married",
+    "Rating":"* * *"
+    },
+     {
+    "Empid" :"14",
+    "Empname":"Joel",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"15",
+    "Empname":"Shanu",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"15",
+    "Empname":"Marty",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+   {
+    "Empid" :"16",
+    "Empname":"Manup",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"17",
+    "Empname":"Gautham",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"18",
+    "Empname":"Rohan",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"19",
+    "Empname":"Akash",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+   {
+    "Empid" :"20",
+    "Empname":"Alan",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"21",
+    "Empname":"Aromal",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"22",
+    "Empname":"Riya",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"23",
+    "Empname":"Anet",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"24",
+    "Empname":"Sandra",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"25",
+    "Empname":"Swetha",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"26",
+    "Empname":"Archana",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"27",
+    "Empname":"Merlin",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/3577/3577099.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"28",
+    "Empname":"Ligin",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"No",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"29",
+    "Empname":"Ganesh",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    },
+    {
+    "Empid" :"30",
+    "Empname":"Yedukrishnan",
+    "Salary":"20000",
+    "Currencey":"INR",
+    "Smoker":"Yes",
+    "Gender":"https://cdn-icons-png.flaticon.com/512/0/93.png",
+    "Marital Status":"Single",
+    "Rating":"* * *"
+    }
+   ]
+}
+
+

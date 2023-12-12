@@ -1,0 +1,15 @@
+<c:FragmentDefinition id="_IDGenFragmentDefinition1"
+xmlns:c="sap.ui.core"
+xmlns="sap.m"
+xmlns:mvc="sap.ui.core.mvc"
+xmlns:f="sap.ui.layout.form">   
+<ComboBox id="_IDGenComboBox1" items="{path:'/city'}" >
+	<c:Item id="_IDGenItem1" text="{cityName}"/>						    
+</ComboBox>
+<MultiComboBox id="m1"  selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish" width="350px">
+    <!-- <core:Item id="_IDGenItem2" key="{text}" text="{cityName}"/> -->
+</MultiComboBox>
+<Select id="_IDGenSelect1" width="35%">
+					<!-- <core:ListItem id="_IDGenListItem1" key="{ProductId}" text="{Name}" icon="{Icon}"/> -->
+				</Select>
+</c:FragmentDefinition>

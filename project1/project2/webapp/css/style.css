@@ -1,0 +1,22 @@
+.center-title .sapMTitle {
+  text-align: center;
+}
+
+/* Add border to the SimpleForm */
+.center-title .sapUiSimpleForm {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+}
+
+/* Add border to the individual fields (optional) */
+.center-title .sapUiSimpleForm .sapMLabel,
+.center-title .sapUiSimpleForm .sapMInputBase {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+

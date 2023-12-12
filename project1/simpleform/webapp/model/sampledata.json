@@ -1,0 +1,16 @@
+{
+    "Empdetails":[
+    {
+    "name":"Vineetha",
+    "age" :"23",
+    "salary":"25,000",
+    "department":"SAP Consultant"
+    },
+    {
+    "name":"Vinu",
+    "age" :"23",
+    "salary":"20",
+    "department":"ABAP"
+    }
+   ]
+}
